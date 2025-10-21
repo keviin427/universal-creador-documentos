@@ -1794,7 +1794,7 @@ def upload_to_storage(file_path: str, public_path: str) -> str:
       - PUBLIC_BASE_URL: dominio público de tu app
       - RENDER_WRITE_TOKEN: token de API con permiso de escritura
     """
-    STORAGE_URL_BASE = os.getenv("PUBLIC_BASE_URL", "https://universal-artifact-generator.onrender.com").rstrip("/")
+    STORAGE_URL_BASE = os.getenv("PUBLIC_BASE_URL", "https://universal-creador-documentos.onrender.com").rstrip("/")
     WRITE_TOKEN = os.getenv("RENDER_WRITE_TOKEN")
     ENV = os.getenv("ENV", "prod")
 
